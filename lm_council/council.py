@@ -13,7 +13,7 @@ import seaborn as sns
 import tqdm.asyncio
 from aiolimiter import AsyncLimiter
 from datasets import Dataset, DatasetDict, Features, Value
-from huggingface_hub import HfApi, HfFolder
+from huggingface_hub import HfApi
 from openai import AsyncOpenAI
 
 from lm_council.analysis.pairwise.affinity import get_affinity_df
